@@ -1,0 +1,21 @@
+
+/**
+ * Washington Post logo.
+ */
+
+.logo[data-logo="Washington Post"] {
+  width: 0;
+}
+
+.logo[data-logo="Washington Post"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Washington Post"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Washington Post"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
